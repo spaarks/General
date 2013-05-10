@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF7FF18F173CB2F70024F2D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF18E173CB2F70024F2D7 /* UIKit.framework */; };
+		EF7FF191173CB2F70024F2D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF190173CB2F70024F2D7 /* Foundation.framework */; };
+		EF7FF193173CB2F70024F2D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF192173CB2F70024F2D7 /* CoreGraphics.framework */; };
+		EF7FF199173CB2F70024F2D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF197173CB2F70024F2D7 /* InfoPlist.strings */; };
+		EF7FF19B173CB2F80024F2D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF19A173CB2F70024F2D7 /* main.m */; };
+		EF7FF19F173CB2F80024F2D7 /* spaarksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.m */; };
+		EF7FF1A1173CB2F80024F2D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A0173CB2F80024F2D7 /* Default.png */; };
+		EF7FF1A3173CB2F80024F2D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A2173CB2F80024F2D7 /* Default@2x.png */; };
+		EF7FF1A5173CB2F80024F2D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A4173CB2F80024F2D7 /* Default-568h@2x.png */; };
+		EF7FF1A8173CB2F80024F2D7 /* spaarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.m */; };
+		EF7FF1AB173CB2F80024F2D7 /* spaarksViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A9173CB2F80024F2D7 /* spaarksViewController_iPhone.xib */; };
+		EF7FF1AE173CB2F80024F2D7 /* spaarksViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1AC173CB2F80024F2D7 /* spaarksViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF7FF18B173CB2F70024F2D7 /* SpaarksARApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaarksARApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7FF18E173CB2F70024F2D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF7FF190173CB2F70024F2D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF7FF192173CB2F70024F2D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF7FF196173CB2F70024F2D7 /* SpaarksARApp1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaarksARApp1-Info.plist"; sourceTree = "<group>"; };
+		EF7FF198173CB2F70024F2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF7FF19A173CB2F70024F2D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF7FF19C173CB2F80024F2D7 /* SpaarksARApp1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaarksARApp1-Prefix.pch"; sourceTree = "<group>"; };
+		EF7FF19D173CB2F80024F2D7 /* spaarksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spaarksAppDelegate.h; sourceTree = "<group>"; };
+		EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaarksAppDelegate.m; sourceTree = "<group>"; };
+		EF7FF1A0173CB2F80024F2D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF7FF1A2173CB2F80024F2D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF7FF1A4173CB2F80024F2D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF7FF1A6173CB2F80024F2D7 /* spaarksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spaarksViewController.h; sourceTree = "<group>"; };
+		EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaarksViewController.m; sourceTree = "<group>"; };
+		EF7FF1AA173CB2F80024F2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/spaarksViewController_iPhone.xib; sourceTree = "<group>"; };
+		EF7FF1AD173CB2F80024F2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/spaarksViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7FF188173CB2F70024F2D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7FF18F173CB2F70024F2D7 /* UIKit.framework in Frameworks */,
+				EF7FF191173CB2F70024F2D7 /* Foundation.framework in Frameworks */,
+				EF7FF193173CB2F70024F2D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7FF182173CB2F70024F2D7 = {
+			isa = PBXGroup;
+			children = (
+				EF7FF194173CB2F70024F2D7 /* SpaarksARApp1 */,
+				EF7FF18D173CB2F70024F2D7 /* Frameworks */,
+				EF7FF18C173CB2F70024F2D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7FF18C173CB2F70024F2D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF18B173CB2F70024F2D7 /* SpaarksARApp1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7FF18D173CB2F70024F2D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF18E173CB2F70024F2D7 /* UIKit.framework */,
+				EF7FF190173CB2F70024F2D7 /* Foundation.framework */,
+				EF7FF192173CB2F70024F2D7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF7FF194173CB2F70024F2D7 /* SpaarksARApp1 */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF19D173CB2F80024F2D7 /* spaarksAppDelegate.h */,
+				EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.m */,
+				EF7FF1A6173CB2F80024F2D7 /* spaarksViewController.h */,
+				EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.m */,
+				EF7FF1A9173CB2F80024F2D7 /* spaarksViewController_iPhone.xib */,
+				EF7FF1AC173CB2F80024F2D7 /* spaarksViewController_iPad.xib */,
+				EF7FF195173CB2F70024F2D7 /* Supporting Files */,
+			);
+			path = SpaarksARApp1;
+			sourceTree = "<group>";
+		};
+		EF7FF195173CB2F70024F2D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF7FF196173CB2F70024F2D7 /* SpaarksARApp1-Info.plist */,
+				EF7FF197173CB2F70024F2D7 /* InfoPlist.strings */,
+				EF7FF19A173CB2F70024F2D7 /* main.m */,
+				EF7FF19C173CB2F80024F2D7 /* SpaarksARApp1-Prefix.pch */,
+				EF7FF1A0173CB2F80024F2D7 /* Default.png */,
+				EF7FF1A2173CB2F80024F2D7 /* Default@2x.png */,
+				EF7FF1A4173CB2F80024F2D7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7FF18A173CB2F70024F2D7 /* SpaarksARApp1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7FF1B1173CB2F80024F2D7 /* Build configuration list for PBXNativeTarget "SpaarksARApp1" */;
+			buildPhases = (
+				EF7FF187173CB2F70024F2D7 /* Sources */,
+				EF7FF188173CB2F70024F2D7 /* Frameworks */,
+				EF7FF189173CB2F70024F2D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaarksARApp1;
+			productName = SpaarksARApp1;
+			productReference = EF7FF18B173CB2F70024F2D7 /* SpaarksARApp1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7FF183173CB2F70024F2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = spaarks;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "martin steel";
+			};
+			buildConfigurationList = EF7FF186173CB2F70024F2D7 /* Build configuration list for PBXProject "SpaarksARApp1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF7FF182173CB2F70024F2D7;
+			productRefGroup = EF7FF18C173CB2F70024F2D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7FF18A173CB2F70024F2D7 /* SpaarksARApp1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7FF189173CB2F70024F2D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7FF199173CB2F70024F2D7 /* InfoPlist.strings in Resources */,
+				EF7FF1A1173CB2F80024F2D7 /* Default.png in Resources */,
+				EF7FF1A3173CB2F80024F2D7 /* Default@2x.png in Resources */,
+				EF7FF1A5173CB2F80024F2D7 /* Default-568h@2x.png in Resources */,
+				EF7FF1AB173CB2F80024F2D7 /* spaarksViewController_iPhone.xib in Resources */,
+				EF7FF1AE173CB2F80024F2D7 /* spaarksViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7FF187173CB2F70024F2D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7FF19B173CB2F80024F2D7 /* main.m in Sources */,
+				EF7FF19F173CB2F80024F2D7 /* spaarksAppDelegate.m in Sources */,
+				EF7FF1A8173CB2F80024F2D7 /* spaarksViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7FF197173CB2F70024F2D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7FF198173CB2F70024F2D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF7FF1A9173CB2F80024F2D7 /* spaarksViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7FF1AA173CB2F80024F2D7 /* en */,
+			);
+			name = spaarksViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EF7FF1AC173CB2F80024F2D7 /* spaarksViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7FF1AD173CB2F80024F2D7 /* en */,
+			);
+			name = spaarksViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7FF1AF173CB2F80024F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7FF1B0173CB2F80024F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7FF1B2173CB2F80024F2D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaarksARApp1/SpaarksARApp1-Prefix.pch";
+				INFOPLIST_FILE = "SpaarksARApp1/SpaarksARApp1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF7FF1B3173CB2F80024F2D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpaarksARApp1/SpaarksARApp1-Prefix.pch";
+				INFOPLIST_FILE = "SpaarksARApp1/SpaarksARApp1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7FF186173CB2F70024F2D7 /* Build configuration list for PBXProject "SpaarksARApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7FF1AF173CB2F80024F2D7 /* Debug */,
+				EF7FF1B0173CB2F80024F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7FF1B1173CB2F80024F2D7 /* Build configuration list for PBXNativeTarget "SpaarksARApp1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7FF1B2173CB2F80024F2D7 /* Debug */,
+				EF7FF1B3173CB2F80024F2D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7FF183173CB2F70024F2D7 /* Project object */;
+}
