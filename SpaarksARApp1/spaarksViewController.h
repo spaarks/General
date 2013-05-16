@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface spaarksViewController : UIViewController
+#import "MetaioSDKViewController.h"
+#import "EAGLView.h"
+#import <metaioSDK/GestureHandlerIOS.h>
 
+@interface spaarksViewController : MetaioSDKViewController
+{
+    GestureHandlerIOS* m_gestureHandler;
+    
+    int m_gestures;
+}
 @end
+
