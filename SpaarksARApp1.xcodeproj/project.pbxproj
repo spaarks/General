@@ -12,13 +12,27 @@
 		EF7FF193173CB2F70024F2D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF192173CB2F70024F2D7 /* CoreGraphics.framework */; };
 		EF7FF199173CB2F70024F2D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF197173CB2F70024F2D7 /* InfoPlist.strings */; };
 		EF7FF19B173CB2F80024F2D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF19A173CB2F70024F2D7 /* main.m */; };
-		EF7FF19F173CB2F80024F2D7 /* spaarksAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.m */; };
+		EF7FF19F173CB2F80024F2D7 /* spaarksAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.mm */; };
 		EF7FF1A1173CB2F80024F2D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A0173CB2F80024F2D7 /* Default.png */; };
 		EF7FF1A3173CB2F80024F2D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A2173CB2F80024F2D7 /* Default@2x.png */; };
 		EF7FF1A5173CB2F80024F2D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A4173CB2F80024F2D7 /* Default-568h@2x.png */; };
-		EF7FF1A8173CB2F80024F2D7 /* spaarksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.m */; };
+		EF7FF1A8173CB2F80024F2D7 /* spaarksViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.mm */; };
 		EF7FF1AB173CB2F80024F2D7 /* spaarksViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1A9173CB2F80024F2D7 /* spaarksViewController_iPhone.xib */; };
 		EF7FF1AE173CB2F80024F2D7 /* spaarksViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1AC173CB2F80024F2D7 /* spaarksViewController_iPad.xib */; };
+		EF7FF1B5173CB3900024F2D7 /* metaioSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1B4173CB3900024F2D7 /* metaioSDK.framework */; };
+		EF7FF1B7173CB3CB0024F2D7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1B6173CB3CB0024F2D7 /* libz.dylib */; };
+		EF7FF1B9173CB4A40024F2D7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1B8173CB4A40024F2D7 /* libxml2.dylib */; };
+		EF7FF1BB173CB4B60024F2D7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1BA173CB4B60024F2D7 /* CoreMotion.framework */; };
+		EF7FF1BD173CB4C10024F2D7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1BC173CB4C10024F2D7 /* OpenGLES.framework */; };
+		EF7FF1BF173CB4CE0024F2D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1BE173CB4CE0024F2D7 /* AudioToolbox.framework */; };
+		EF7FF1C1173CB4DA0024F2D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1C0173CB4DA0024F2D7 /* QuartzCore.framework */; };
+		EF7FF1C3173CB4E30024F2D7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1C2173CB4E30024F2D7 /* CoreVideo.framework */; };
+		EF7FF1C5173CB4EE0024F2D7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1C4173CB4EE0024F2D7 /* CoreMedia.framework */; };
+		EF7FF1C7173CB4F90024F2D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1C6173CB4F90024F2D7 /* CoreLocation.framework */; };
+		EF7FF1C9173CB5050024F2D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7FF1C8173CB5050024F2D7 /* AVFoundation.framework */; };
+		EF7FF1CE173CB5DD0024F2D7 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF1CB173CB5DD0024F2D7 /* EAGLView.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7FF1CF173CB5DD0024F2D7 /* MetaioSDKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF7FF1CD173CB5DD0024F2D7 /* MetaioSDKViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		EF7FF1E017414E150024F2D7 /* Assets1 in Resources */ = {isa = PBXBuildFile; fileRef = EF7FF1DF17414E150024F2D7 /* Assets1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,14 +45,30 @@
 		EF7FF19A173CB2F70024F2D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF7FF19C173CB2F80024F2D7 /* SpaarksARApp1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpaarksARApp1-Prefix.pch"; sourceTree = "<group>"; };
 		EF7FF19D173CB2F80024F2D7 /* spaarksAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spaarksAppDelegate.h; sourceTree = "<group>"; };
-		EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaarksAppDelegate.m; sourceTree = "<group>"; };
+		EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = spaarksAppDelegate.mm; sourceTree = "<group>"; };
 		EF7FF1A0173CB2F80024F2D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		EF7FF1A2173CB2F80024F2D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EF7FF1A4173CB2F80024F2D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EF7FF1A6173CB2F80024F2D7 /* spaarksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spaarksViewController.h; sourceTree = "<group>"; };
-		EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spaarksViewController.m; sourceTree = "<group>"; };
+		EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = spaarksViewController.mm; sourceTree = "<group>"; };
 		EF7FF1AA173CB2F80024F2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/spaarksViewController_iPhone.xib; sourceTree = "<group>"; };
 		EF7FF1AD173CB2F80024F2D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/spaarksViewController_iPad.xib; sourceTree = "<group>"; };
+		EF7FF1B4173CB3900024F2D7 /* metaioSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = metaioSDK.framework; sourceTree = "<group>"; };
+		EF7FF1B6173CB3CB0024F2D7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EF7FF1B8173CB4A40024F2D7 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		EF7FF1BA173CB4B60024F2D7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EF7FF1BC173CB4C10024F2D7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EF7FF1BE173CB4CE0024F2D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF7FF1C0173CB4DA0024F2D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF7FF1C2173CB4E30024F2D7 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EF7FF1C4173CB4EE0024F2D7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EF7FF1C6173CB4F90024F2D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF7FF1C8173CB5050024F2D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF7FF1CA173CB5DD0024F2D7 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		EF7FF1CB173CB5DD0024F2D7 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		EF7FF1CC173CB5DD0024F2D7 /* MetaioSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaioSDKViewController.h; sourceTree = "<group>"; };
+		EF7FF1CD173CB5DD0024F2D7 /* MetaioSDKViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetaioSDKViewController.mm; sourceTree = "<group>"; };
+		EF7FF1DF17414E150024F2D7 /* Assets1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +76,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7FF1C9173CB5050024F2D7 /* AVFoundation.framework in Frameworks */,
+				EF7FF1C7173CB4F90024F2D7 /* CoreLocation.framework in Frameworks */,
+				EF7FF1C5173CB4EE0024F2D7 /* CoreMedia.framework in Frameworks */,
+				EF7FF1C3173CB4E30024F2D7 /* CoreVideo.framework in Frameworks */,
+				EF7FF1C1173CB4DA0024F2D7 /* QuartzCore.framework in Frameworks */,
+				EF7FF1BF173CB4CE0024F2D7 /* AudioToolbox.framework in Frameworks */,
+				EF7FF1BD173CB4C10024F2D7 /* OpenGLES.framework in Frameworks */,
+				EF7FF1BB173CB4B60024F2D7 /* CoreMotion.framework in Frameworks */,
+				EF7FF1B9173CB4A40024F2D7 /* libxml2.dylib in Frameworks */,
+				EF7FF1B7173CB3CB0024F2D7 /* libz.dylib in Frameworks */,
+				EF7FF1B5173CB3900024F2D7 /* metaioSDK.framework in Frameworks */,
 				EF7FF18F173CB2F70024F2D7 /* UIKit.framework in Frameworks */,
 				EF7FF191173CB2F70024F2D7 /* Foundation.framework in Frameworks */,
 				EF7FF193173CB2F70024F2D7 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +99,17 @@
 		EF7FF182173CB2F70024F2D7 = {
 			isa = PBXGroup;
 			children = (
+				EF7FF1C8173CB5050024F2D7 /* AVFoundation.framework */,
+				EF7FF1C6173CB4F90024F2D7 /* CoreLocation.framework */,
+				EF7FF1C4173CB4EE0024F2D7 /* CoreMedia.framework */,
+				EF7FF1C2173CB4E30024F2D7 /* CoreVideo.framework */,
+				EF7FF1C0173CB4DA0024F2D7 /* QuartzCore.framework */,
+				EF7FF1BE173CB4CE0024F2D7 /* AudioToolbox.framework */,
+				EF7FF1BC173CB4C10024F2D7 /* OpenGLES.framework */,
+				EF7FF1BA173CB4B60024F2D7 /* CoreMotion.framework */,
+				EF7FF1B8173CB4A40024F2D7 /* libxml2.dylib */,
+				EF7FF1B6173CB3CB0024F2D7 /* libz.dylib */,
+				EF7FF1B4173CB3900024F2D7 /* metaioSDK.framework */,
 				EF7FF194173CB2F70024F2D7 /* SpaarksARApp1 */,
 				EF7FF18D173CB2F70024F2D7 /* Frameworks */,
 				EF7FF18C173CB2F70024F2D7 /* Products */,
@@ -85,10 +137,15 @@
 		EF7FF194173CB2F70024F2D7 /* SpaarksARApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				EF7FF1DF17414E150024F2D7 /* Assets1 */,
+				EF7FF1CA173CB5DD0024F2D7 /* EAGLView.h */,
+				EF7FF1CB173CB5DD0024F2D7 /* EAGLView.mm */,
+				EF7FF1CC173CB5DD0024F2D7 /* MetaioSDKViewController.h */,
+				EF7FF1CD173CB5DD0024F2D7 /* MetaioSDKViewController.mm */,
 				EF7FF19D173CB2F80024F2D7 /* spaarksAppDelegate.h */,
-				EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.m */,
+				EF7FF19E173CB2F80024F2D7 /* spaarksAppDelegate.mm */,
 				EF7FF1A6173CB2F80024F2D7 /* spaarksViewController.h */,
-				EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.m */,
+				EF7FF1A7173CB2F80024F2D7 /* spaarksViewController.mm */,
 				EF7FF1A9173CB2F80024F2D7 /* spaarksViewController_iPhone.xib */,
 				EF7FF1AC173CB2F80024F2D7 /* spaarksViewController_iPad.xib */,
 				EF7FF195173CB2F70024F2D7 /* Supporting Files */,
@@ -168,6 +225,7 @@
 				EF7FF1A5173CB2F80024F2D7 /* Default-568h@2x.png in Resources */,
 				EF7FF1AB173CB2F80024F2D7 /* spaarksViewController_iPhone.xib in Resources */,
 				EF7FF1AE173CB2F80024F2D7 /* spaarksViewController_iPad.xib in Resources */,
+				EF7FF1E017414E150024F2D7 /* Assets1 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,8 +237,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF7FF19B173CB2F80024F2D7 /* main.m in Sources */,
-				EF7FF19F173CB2F80024F2D7 /* spaarksAppDelegate.m in Sources */,
-				EF7FF1A8173CB2F80024F2D7 /* spaarksViewController.m in Sources */,
+				EF7FF19F173CB2F80024F2D7 /* spaarksAppDelegate.mm in Sources */,
+				EF7FF1A8173CB2F80024F2D7 /* spaarksViewController.mm in Sources */,
+				EF7FF1CE173CB5DD0024F2D7 /* EAGLView.mm in Sources */,
+				EF7FF1CF173CB5DD0024F2D7 /* MetaioSDKViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +335,17 @@
 		EF7FF1B2173CB2F80024F2D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpaarksARApp1/SpaarksARApp1-Prefix.pch";
 				INFOPLIST_FILE = "SpaarksARApp1/SpaarksARApp1-Info.plist";
@@ -286,6 +357,17 @@
 		EF7FF1B3173CB2F80024F2D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpaarksARApp1/SpaarksARApp1-Prefix.pch";
 				INFOPLIST_FILE = "SpaarksARApp1/SpaarksARApp1-Info.plist";
